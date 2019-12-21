@@ -1,0 +1,12 @@
+{
+    "manifest_version":2,
+    "name":"vscode random theme",
+    "version":"0.0.0",
+    "description":"open page to random vscode dark theme",
+
+    "permissions":["tabs","activeTab","https://vscodethemes.com/*"],
+
+    "browser_action":{
+        "default_popup":"popup/popup.html"
+    }
+}
