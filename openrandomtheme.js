@@ -5,7 +5,7 @@ function main()
 
     setTimeout(()=>{
         themelinks[randomInt(0,themelinks.length-1)].click();
-    },200);
+    },500);
 
     // window.location=themelinks[randomInt(0,themelinks.length-1)].href;
     // window.location="https://www.google.com/";
