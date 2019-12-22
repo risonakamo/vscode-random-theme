@@ -8,7 +8,10 @@ function main()
         url:`https://vscodethemes.com/dark?page=${randomInt(1,_themePageMax)}`,
         active:false
     },(tab)=>{
-        chrome.tabs.executeScript(tab.id,{file:"openrandomtheme.js"},()=>{
+        chrome.tabs.executeScript(tab.id,{
+            file:"openrandomtheme.js",
+            runAt:"document_end"
+        },()=>{
             chrome.tabs.update(tab.id,{active:true});
         });
     });

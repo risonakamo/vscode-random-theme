@@ -3,7 +3,12 @@ function main()
 {
     var themelinks=document.querySelectorAll("a.css-og9qf9");
 
-    window.location.assign(themelinks[randomInt(0,themelinks.length-1)].href);
+    setTimeout(()=>{
+        themelinks[randomInt(0,themelinks.length-1)].click();
+    },200);
+
+    // window.location=themelinks[randomInt(0,themelinks.length-1)].href;
+    // window.location="https://www.google.com/";
 }
 
 function randomInt(low,high)
