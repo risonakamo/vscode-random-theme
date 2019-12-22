@@ -1,0 +1,17 @@
+body
+{
+    background-color: #202026;
+    color: #D4D4D4;
+    font-family: "Segoe UI",Helvetica,Arial,sans-serif;
+}
+
+.count-holder
+{
+    font-size: 16px;
+}
+
+.picked-number
+{
+    color: #00A8FF;
+    font-size: 30px;
+}
