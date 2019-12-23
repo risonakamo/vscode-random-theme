@@ -1,14 +1,10 @@
 /* use on a vscode themes website page, opens a random theme on the page */
 function main()
 {
-    var themelinks=document.querySelectorAll("a.css-og9qf9");
-
     setTimeout(()=>{
+        var themelinks=document.querySelectorAll("a.css-og9qf9");
         themelinks[randomInt(0,themelinks.length-1)].click();
     },500);
-
-    // window.location=themelinks[randomInt(0,themelinks.length-1)].href;
-    // window.location="https://www.google.com/";
 }
 
 function randomInt(low,high)
