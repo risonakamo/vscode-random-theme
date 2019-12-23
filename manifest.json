@@ -1,12 +1,20 @@
 {
     "manifest_version":2,
     "name":"vscode random theme",
-    "version":"0.0.0",
+    "version":"1.0.0",
     "description":"open page to random vscode dark theme",
+    "homepage_url":"https://github.com/risonakamo/vscode-random-theme",
 
     "permissions":["tabs","activeTab","https://vscodethemes.com/*"],
 
     "browser_action":{
-    "default_popup":"popup.html"
+        "default_popup":"popup.html"
+    },
+
+    "icons":{
+        "16":"icons/icon16.png",
+        "32":"icons/icon32.png",
+        "48":"icons/icon48.png",
+        "128":"icons/icon128.png"
     }
 }
