@@ -50,6 +50,7 @@ function onVsThemesSite()
     return new Promise((resolve)=>{
         chrome.tabs.query({
             active:true,
+            currentWindow:true,
             url:"https://vscodethemes.com/*"
         },(tabs)=>{
             if (!tabs.length)
