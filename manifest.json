@@ -1,7 +1,7 @@
 {
     "manifest_version":2,
     "name":"vscode random theme",
-    "version":"1.0.1",
+    "version":"1.0.2",
     "description":"open page to random vscode dark theme",
     "homepage_url":"https://github.com/risonakamo/vscode-random-theme",
 
